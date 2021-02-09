@@ -4,13 +4,13 @@ body {
 }
 
 td {
-    border: 1px solid #79d9ce;
+    border: 1px solid #c5f80e;
     width: 20px;
     height: 20px;
 }
 
 .key {
-	border: 1px solid #79d9ce;
+	border: 1px solid #defc39;
 	width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -37,7 +37,7 @@ ul {
 
 .none {
 	transition : background-color 0.1s ease-in-out;
-	background-color: rgb(253, 6, 6);
+	background-color: rgb(253, 64, 6);
 	border-color: #79d9ce;
 }
 

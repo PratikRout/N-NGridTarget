@@ -37,7 +37,7 @@ ul {
 
 .none {
 	transition : background-color 0.1s ease-in-out;
-	background-color: white;
+	background-color: rgb(253, 6, 6);
 	border-color: #79d9ce;
 }
 
@@ -65,7 +65,7 @@ ul {
 }
 
 .end {
-	background-color: red;
+	background-color: rgb(247, 6, 6);
 	border-color: red;
 }
 
@@ -88,7 +88,7 @@ ul {
 	position: fixed;
 	right: 10px;
 	bottom: 10px;
-	color: white;
+	color: rgb(223, 22, 22);
 	font-size: 12px;
 	text-align: center;
 	border: 1px dashed black;

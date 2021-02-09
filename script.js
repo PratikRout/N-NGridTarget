@@ -195,7 +195,7 @@ $( "body" ).mouseup(function(){
 /* ----------------- */
 
 $( "#startBtn" ).click(function(){
-    if ( algorithm == null ){ return;}
+    //if ( algorithm == null ){ return;}
     if ( inProgress ){ update("wait"); return; }
 	traverseGraph(algorithm);
 });
@@ -213,7 +213,7 @@ $( "#clearBtn" ).click(function(){
 $( "#algorithms .dropdown-item").click(function(){
 	if ( inProgress ){ update("wait"); return; }
 	algorithm = $(this).text();
-	updateStartBtnText();
+  	updateStartBtnText();
 	console.log("Algorithm has been changd to: " + algorithm);
 });
 
@@ -285,19 +285,19 @@ function updateSpeedDisplay(){
 }
 
 function updateStartBtnText(){
-	if (algorithm == "Depth-First Search (DFS)"){
-		$("#startBtn").html("Start DFS");
-	} else if (algorithm == "Breadth-First Search (BFS)"){
-		$("#startBtn").html("Start BFS");
-	} else if (algorithm == "Dijkstra"){
-		$("#startBtn").html("Start Dijkstra");
-	} else if (algorithm == "A*"){
-		$("#startBtn").html("Start A*");
-	} else if (algorithm == "Greedy Best-First Search"){
-		$("#startBtn").html("Start Greedy BFS");
-	} else if (algorithm == "Jump Point Search"){
-		$("#startBtn").html("Start JPS");
-	}
+	//if (algorithm == "Depth-First Search (DFS)"){
+	//	$("#startBtn").html("Start DFS");
+	//} else if (algorithm == "Breadth-First Search (BFS)"){
+	$("#startBtn").html("Start");
+	//} else if (algorithm == "Dijkstra"){
+	//	$("#startBtn").html("Start Dijkstra");
+	//} else if (algorithm == "A*"){
+	//	$("#startBtn").html("Start A*");
+	//} else if (algorithm == "Greedy Best-First Search"){
+	//	$("#startBtn").html("Start Greedy BFS");
+	//} else if (algorithm == "Jump Point Search"){
+	//	$("#startBtn").html("Start JPS");
+	//}
 	return;
 }
 

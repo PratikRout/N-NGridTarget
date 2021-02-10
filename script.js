@@ -1,5 +1,5 @@
-var totalRows = 25;
-var totalCols = 40;
+var totalRows = 20;
+var totalCols = 20;
 var inProgress = false;
 //var initialMessage = "Click or drag cells to build walls! Press start when you finish and have selected an algorithm!";
 var cellsToAnimate = [];
@@ -8,8 +8,8 @@ var algorithm = null;
 var justFinished = false;
 var animationSpeed = "Fast";
 var animationState = null;
-var startCell = [11, 15];
-var endCell = [11, 25];
+var startCell = [10, 6];
+var endCell = [10, 12];
 var movingStart = false;
 var movingEnd = false;
 

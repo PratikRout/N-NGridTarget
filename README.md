@@ -3,7 +3,7 @@
 Access Link - https://PratikRout.github.io/N-NGridTarget/
 
 Micro Mouse Exploration
-We represented the maze as a 2D array of size 16*16, initiated with zeros. We’ll call it the maze array.
+We represented the maze as a 2D array of size 20*20, initiated with zeros. We’ll call it the maze array.
 
 While the robot is in the maze, it can moving while facing towards four directions (orientations). To represent this in the algorithm, we used a variable Orient to store one of the four values; 0,1,2,3. Every time the robot performs a turn, the orient variable is updated.
 
